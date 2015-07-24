@@ -1,2 +1,3 @@
 # sean0728.github.io
-Static site
+The web home of Sean Beach.
+Work-in-progress.
