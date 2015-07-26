@@ -1,0 +1,132 @@
+{
+    "basics": {
+        "name": "Sean Beach",
+        "label": "Software Engineer",
+        "email": "dirtybeach0728@gmail.com",
+        "phone": "(901) 896-5897",
+        "summary": "A software engineer, specializing in Android app development, with a passion for video games and coffee.",
+        "location": {
+            "city": "Nashville",
+            "countryCode": "US",
+            "region": "Tennessee"
+        },
+        "profiles": [
+            {
+            "network": "LinkedIn",
+            "url": "https://www.linkedin.com/in/seandbeach"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "LifeWay Christian Resources",
+            "position": "Software Engineer",
+            "website": "http://www.lifeway.com/Article/About-Us",
+            "startDate": "February 2014",
+            "endDate": "July 2015",
+            "summary": "Developed and maintained an Android application platform for reading and annotating ePub content. ePubs are streamed over the internet via an internal API, or downloaded and parsed locally. All content is encrypted at time of download, and decrypted on the fly as the user reads, including HTML5 video content. The platform also included a verbose library screen for all of the user's owned content, and an in-app store where they can buy more. This project, via Gradle flavors and flexible coding, became the basis for 5 published applications on the Google Play store, the most prominent being WORDsearch Bible (https://play.google.com/store/apps/details?id=com.lifeway.wordsearchreader) with over 20,000 unique users and over 30,000 total installations."
+        },
+        {
+            "company": "University of Memphis",
+            "position": "Student Research Assistant",
+            "website": "http://www.memphis.edu/cs/",
+            "startDate": "April 2013",
+            "endDate": "December 2013",
+            "summary": "Android development within the scope of a faculty research project. Attempted to modify the Android Open Source Project to include a new OS-level security protocol. The goal was to implement behavior learning of user action. After one week of typical usage, the device would be able to recognize the user based upon hardware sensor readings, and determine if the current user is the owner of the device. If the protocol detected otherwise, other security mechanisms would take effect, such as confirmation of device password, or answering a security question."
+        },
+        {
+            "company": "FedEx Services",
+            "position": "Material Handler",
+            "website": "http://about.van.fedex.com/",
+            "startDate": "May 2011",
+            "endDate": "April 2013",
+            "summary": "Created spreadsheets and used proprietary software to manage inventory of returned products in a supply chain warehouse. Communicated directly to the customers to resolve any outstanding issues."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Android App Developer",
+            "level": "Intermediate",
+            "keywords": [
+                "Android",
+                "Java",
+                "Javascript"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Hack Tennessee",
+            "position": "Volunteer",
+            "website": "http://www.hacktennessee.com/",
+            "startDate": "June 2015",
+            "endDate": "Present",
+            "summary": "Working with a group of volunteers to create a classroom lesson for high school juniors and seniors to interest them in technology and show them what can be done through code. Read more about this project and watch the related video here: https://medium.com/hack-tennessee/hacking-with-purpose-30ac34313b87"
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Memphis",
+            "area": "Computer Science",
+            "studyType": "Bachelor of Science (BS)",
+            "startDate": "August 2011",
+            "endDate": "December 2013",
+            "gpa": "3.2",
+            "courses": [
+                "http://www.memphis.edu/cs/courses/index.php"
+            ]
+        },
+        {
+            "institution": "Auburn University",
+            "area": "Software Engineering",
+            "startDate": "August 2010",
+            "endDate": "May 2011"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Developing Android Apps",
+            "date": "June 30, 2015",
+            "awarder": "Udacity",
+            "summary": "Certification of completion for online course. https://www.udacity.com/course/ud853"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "Java",
+            "fluency": "Advanced"
+        },
+        {
+            "language": "Javascript",
+            "fluency": "Intermediate"
+        },
+        {
+            "language": "Scala",
+            "fluency": "Beginner"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Mobile Technology",
+            "keywords": [
+              "Android",
+              "iOS",
+              "Ionic",
+              "Xamarin"
+            ]
+        },
+        {
+            "name": "Content Creation",
+            "keywords": [
+                "Twitch.tv",
+                "Livestreaming",
+                "Broadcasting",
+                "YouTube.com"
+            ]
+        }
+    ]
+}
