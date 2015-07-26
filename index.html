@@ -1,19 +1,507 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <title>Sean Beach</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-    </head>
-    <body>
-        <header>
-            <h3>The web home of Sean Beach</h3>
-        </header>
-        <section>
-            This is a section
-        </section>
-        <footer>
-            This is the footer
-        </footer>
-    </body>
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>Sean Beach</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px;
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Sean Beach
+					</h1>
+					<h2>
+						Software Engineer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="22464b50565b404743414a1215101a62454f434b4e0c414d4f">[email&#160;protected]</a><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">(901) 896-5897</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>A software engineer, specializing in Android app development, with a passion for video games and coffee.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+						<div class="url">
+							<a href="https://www.linkedin.com/in/seandbeach">https://www.linkedin.com/in/seandbeach</a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>LifeWay Christian Resources</span>
+					<span class="date">
+						February 2014 — July 2015
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.lifeway.com/Article/About-Us">http://www.lifeway.com/Article/About-Us</a>
+				</div>
+				<div class="position">
+					Software Engineer
+				</div>
+				<div class="summary">
+					<p>Developed and maintained an Android application platform for reading and annotating ePub content. ePubs are streamed over the internet via an internal API, or downloaded and parsed locally. All content is encrypted at time of download, and decrypted on the fly as the user reads, including HTML5 video content. The platform also included a verbose library screen for all of the user&#x27;s owned content, and an in-app store where they can buy more. This project, via Gradle flavors and flexible coding, became the basis for 5 published applications on the Google Play store, the most prominent being <a href="https://play.google.com/store/apps/details?id=com.lifeway.wordsearchreader">WORDsearch Bible</a> with over 20,000 unique users and over 30,000 total installations.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>University of Memphis</span>
+					<span class="date">
+						April 2013 — December 2013
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.memphis.edu/cs/">http://www.memphis.edu/cs/</a>
+				</div>
+				<div class="position">
+					Student Research Assistant
+				</div>
+				<div class="summary">
+					<p>Android development within the scope of a faculty research project. Attempted to modify the Android Open Source Project to include a new OS-level security protocol. The goal was to implement behavior learning of user action. After one week of typical usage, the device would be able to recognize the user based upon hardware sensor readings, and determine if the current user is the owner of the device. If the protocol detected otherwise, other security mechanisms would take effect, such as confirmation of device password, or answering a security question.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>FedEx Services</span>
+					<span class="date">
+						May 2011 — April 2013
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://about.van.fedex.com/">http://about.van.fedex.com/</a>
+				</div>
+				<div class="position">
+					Material Handler
+				</div>
+				<div class="summary">
+					<p>Created spreadsheets and used proprietary software to manage inventory of returned products in a supply chain warehouse. Communicated directly to the customers to resolve any outstanding issues.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Hack Tennessee</span>
+					<span class="date">
+						June 2015 — Present
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.hacktennessee.com/">http://www.hacktennessee.com/</a>
+				</div>
+				<div class="position">
+					Volunteer
+				</div>
+				<div class="summary">
+					<p>Working with a group of volunteers to create a classroom lesson for high school juniors and seniors to interest them in technology and show them the awesome things that can be done through code. Read more about this project and watch the related video <a href="https://medium.com/hack-tennessee/hacking-with-purpose-30ac34313b87">here.</a></p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>University of Memphis</span>
+					<span class="date">
+						August 2011 — December 2013
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					Bachelor of Science (BS)
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li><a href="http://www.memphis.edu/cs/courses/index.php">memphis.edu</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Auburn University</span>
+					<span class="date">
+						August 2010 — May 2011
+					</span>
+				</h4>
+				<div class="area">
+					Software Engineering
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Developing Android Apps</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					June 30, 2015
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Udacity</strong>
+				</div>
+				<div class="summary">
+					Certification of completion for <a href="https://www.udacity.com/course/ud853">online course.</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Android App Developer</h4>
+				</div>
+				<ul class="keywords">
+					<li>Android</li>
+					<li>Java</li>
+					<li>Javascript</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Java</strong>
+				</div>
+				<div class="fluency">
+					Advanced
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Javascript</strong>
+				</div>
+				<div class="fluency">
+					Intermediate
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Scala</strong>
+				</div>
+				<div class="fluency">
+					Beginner
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Mobile Technology</h4>
+				</div>
+				<ul class="keywords">
+					<li>Android</li>
+					<li>iOS</li>
+					<li>Ionic</li>
+					<li>Xamarin</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Content Creation</h4>
+				</div>
+				<ul class="keywords">
+					<li>Twitch.tv</li>
+					<li>Livestreaming</li>
+					<li>Broadcasting</li>
+					<li>YouTube.com</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	</div>
+
+	</body>
 </html>
