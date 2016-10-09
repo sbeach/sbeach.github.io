@@ -12,16 +12,16 @@
         },
         "profiles": [
             {
-                "network": "LinkedIn",
-                "url": "https://www.linkedin.com/in/seandbeach"
-            },
-            {
                 "network": "GitHub",
                 "url": "https://github.com/sean0728"
             },
             {
                 "network": "StackOverflow",
                 "url": "http://stackoverflow.com/users/2608235"
+            },
+            {
+                "network": "LinkedIn",
+                "url": "https://www.linkedin.com/in/seandbeach"
             }
         ]
     },
@@ -32,7 +32,7 @@
             "website": "metova.com/about-us/",
             "startDate": "August 2015",
             "endDate": "Present",
-            "summary": "Working directly with customers to produce amazing mobile apps. Primary focus on Android development, with minor personal experience in iOS. Also using Ionic with Angular and Cordova as a hybrid solution to develop apps for both Android and iOS from one code base."
+            "summary": "Working as part of distributed teams and directly with customers to delight and develop amazing software. Primary focus on Android development, with minor personal experience in iOS. Short tenure on Angular project, using Cordova and the Ionic framework to develop apps for both Android and iOS from one code base."
         },
         {
             "company": "LifeWay Christian Resources",
@@ -71,6 +71,14 @@
         }
     ],
     "volunteer": [
+        {
+            "organization": "Nashville Mobile Development User Group",
+            "position": "Organizer",
+            "website": "https://www.meetup.com/NashvilleMDUG/",
+            "startDate": "April 2016",
+            "endDate": "Present",
+            "summary": "Helping organize monthly meetings for mobile technology professionals to network and increase their technical proficiencies. Past content has included Android study groups, iOS and Swift tutorials, and getting started with Unity. The group is a Google Development Group, and hosts an official Google I/O Extended event. Learn more about this group at Meetup.com. https://www.meetup.com/NashvilleMDUG/"
+        },
         {
             "organization": "Hack Tennessee",
             "position": "Volunteer",
@@ -126,11 +134,11 @@
             "fluency": "Intermediate"
         },
         {
-            "language": "Scala",
+            "language": "Swift",
             "fluency": "Beginner"
         },
         {
-            "language": "Swift",
+            "language": "Scala",
             "fluency": "Beginner"
         }
     ],
@@ -142,15 +150,6 @@
               "iOS",
               "Ionic",
               "Xamarin"
-            ]
-        },
-        {
-            "name": "Content Creation",
-            "keywords": [
-                "Twitch.tv",
-                "Livestreaming",
-                "Broadcasting",
-                "YouTube.com"
             ]
         }
     ]
