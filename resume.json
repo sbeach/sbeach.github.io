@@ -2,13 +2,7 @@
     "basics": {
         "name": "Sean Beach",
         "label": "Software Engineer",
-        "phone": "901-896-5897",
-        "summary": "Sean is a software engineer, specializing in Android app development, with a passion for video games and coffee. Sean started his software career at Auburn University, where he learned the basics of programming. The following year, he transferred to the University of Memphis to complete his Computer Science education. After graduation, he moved from Memphis to Nashville upon accepting an offer to work as an Android developer. Sean likes to spend his free time watching movies with his wife, playing video games, improving his skills, and reading about the technology industry at large. After moving to Nashville, he developed an interest in specialty coffee, and enjoys trying different coffees from around the world. His favorite games are of the Fire Emblem series, which are turn based tactics games, and 4X games such as Endless Legend and the Civilization series.",
-        "location": {
-            "city": "Nashville",
-            "countryCode": "US",
-            "region": "Tennessee"
-        },
+        "summary": "Sean is a software engineer, specializing in Android app development, with a passion for video games and coffee. Sean started his education at Auburn University, where he learned the basics of programming. The following year, he transferred to the University of Memphis to complete his Computer Science degree. After graduation, he moved to Nashville to start his career as an Android developer. Over the years his skills have broadened to include iOS, .NET, and SQL. After moving to Nashville, Sean developed an interest in specialty coffee, and enjoys trying different coffees from around the world. When he gets the time and opportunity, he likes visiting Steadfast, Dose, and Crema. Sean likes to spend his free time watching movies with his wife, playing a variety of games, improving his skills, and reading about the technology industry at large.",
         "profiles": [
             {
                 "network": "GitHub",
@@ -20,7 +14,7 @@
             },
             {
                 "network": "LinkedIn",
-                "url": "https://www.linkedin.com/in/seandbeach"
+                "url": "https://www.linkedin.com/in/sbeachdev"
             }
         ]
     },
@@ -28,54 +22,41 @@
         {
             "company": "Onlife Health",
             "position": "Developer II",
-            "website": "",
-            "startDate": "April 2017",
-            "endDate": "Present",
-            "summary": "Android team lead"
+            "website": "https://www.onlifehealth.com/",
+            "startDate": "2017-04-24",
+            "summary": "Lead mobile developer. Continued native Android tenure while branching into native iOS with Swift, .NET APIs, and SQL Server. Technical lead of white label effort to offer more branding options for clients, while simultaneously providing a streamlined experience for end users. The project expanded a single app immediately to four, with the capability to quickly scale up further through use of automated tools."
         },
         {
             "company": "TEKsystems",
             "position": "Developer II",
             "website": "https://www.teksystems.com/en/about-teksystems",
-            "startDate": "December 2016",
-            "endDate": "April 2017",
+            "startDate": "2016-12-19",
+            "endDate": "2017-04-24",
             "summary": "Contract-to-hire position with Onlife Health"
         },
         {
             "company": "Metova, Inc.",
             "position": "Developer",
             "website": "metova.com/about-us/",
-            "startDate": "August 2015",
-            "endDate": "December 2016",
-            "summary": "Working as part of distributed teams and directly with customers to delight and develop amazing software. Primary focus on Android development, with minor personal experience in iOS. Short tenure on Angular project, using Cordova and the Ionic framework to develop apps for both Android and iOS from one code base."
+            "startDate": "2015-08-07",
+            "endDate": "2016-12-15",
+            "summary": "Worked as part of distributed teams and to develop amazing software that delights customers. Primary focus on Android development, with minor experience in iOS. Short tenure on Angular project, using Cordova and the Ionic framework to develop apps for both Android and iOS from one code base."
         },
         {
             "company": "LifeWay Christian Resources",
             "position": "Software Engineer",
             "website": "http://www.lifeway.com/Article/About-Us",
-            "startDate": "February 2014",
-            "endDate": "July 2015",
+            "startDate": "2014-02-04",
+            "endDate": "2015-07-24",
             "summary": "Developed and maintained an Android application platform for reading and annotating ePub content. ePubs are streamed over the internet via an internal API, or downloaded and parsed locally. All content is encrypted at time of download, and decrypted on the fly as the user reads, including HTML5 video content. The platform also included a verbose library screen for all of the user's owned content, and an in-app store where they can purchase more. This project, via Gradle flavors and flexible coding, became the basis for 5 published applications on the Google Play store, the most prominent being WORDsearch Bible (https://play.google.com/store/apps/details?id=com.lifeway.wordsearchreader) with over 20,000 unique users and over 30,000 total installations."
         },
         {
             "company": "University of Memphis",
             "position": "Undergraduate Researcher",
             "website": "http://www.memphis.edu/cs/",
-            "startDate": "April 2013",
-            "endDate": "December 2013",
+            "startDate": "2013-04-01",
+            "endDate": "2013-12-01",
             "summary": "Android development as part of a faculty research project with Dr. Timothy Hnat. Attempted to modify the Android Open Source Project to include a new OS-level security protocol. The goal was to implement behavior learning of user action. Based upon past usage, the protocol would be able to recognize the device owner based upon hardware sensor readings, and determine if the current user is the owner. If the protocol detected otherwise, other security mechanisms would take effect, such as confirmation of device password, or answering a security question."
-        }
-    ],
-    "skills": [
-        {
-            "name": "Android Development",
-            "level": "Advanced",
-            "keywords": [
-                "Android",
-                "Java",
-                "Unit testing",
-                "Espresso testing"
-            ]
         }
     ],
     "volunteer": [
@@ -83,8 +64,8 @@
             "organization": "Nashville Mobile Development User Group",
             "position": "Organizer",
             "website": "https://www.meetup.com/NashvilleMDUG/",
-            "startDate": "April 2016",
-            "endDate": "Present",
+            "startDate": "2016-04-01",
+            "endDate": "2020-01-01",
             "summary": "Helping organize monthly meetings for mobile technology professionals to network and increase their technical proficiencies. Past content has included Android study groups, iOS and Swift tutorials, and getting started with Unity. The group is a Google Development Group, and hosts an official Google I/O Extended event. Learn more about this group at Meetup.com. https://www.meetup.com/NashvilleMDUG/"
         }
     ],
@@ -93,8 +74,8 @@
             "institution": "University of Memphis",
             "area": "Computer Science",
             "studyType": "Bachelor of Science (BS)",
-            "startDate": "August 2011",
-            "endDate": "December 2013",
+            "startDate": "2011-08-01",
+            "endDate": "2013-12-01",
             "gpa": "3.2",
             "courses": [
                 "Computer organization and Architecture",
@@ -108,14 +89,14 @@
         {
             "institution": "Auburn University",
             "area": "Software Engineering",
-            "startDate": "August 2010",
-            "endDate": "May 2011"
+            "startDate": "2010-08-01",
+            "endDate": "2011-05-01"
         }
     ],
     "awards": [
         {
             "title": "Developing Android Apps",
-            "date": "June 30, 2015",
+            "date": "2015-06-30",
             "awarder": "Udacity",
             "summary": "Certification of completion for online course. https://www.udacity.com/course/ud853"
         }
@@ -144,12 +125,35 @@
     ],
     "interests": [
         {
-            "name": "Mobile Technology",
+            "name": "Magic: The Gathering",
             "keywords": [
-              "Android",
-              "iOS",
-              "Ionic",
-              "Xamarin"
+                "Commander",
+                "Booster Draft",
+                "Legacy"
+            ]
+        },
+        {
+            "name": "Video Games",
+            "keywords": [
+                "Fire Emblem",
+                "Ednless Legend",
+                "Factorio"
+            ]
+        },
+        {
+            "name": "Coffee",
+            "keywords": [
+                "Steadfast",
+                "Dose",
+                "Crema"
+            ]
+        },
+        {
+            "name": "Tabletop Games",
+            "keywords": [
+                "Dungeons & Dragons",
+                "Gizmos",
+                "Stars Without Number"
             ]
         }
     ]
