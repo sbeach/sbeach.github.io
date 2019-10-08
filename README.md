@@ -1,3 +1,2 @@
-# sean0728.github.io
+# sbeach.github.io
 The web home of Sean Beach.
-Work-in-progress.
