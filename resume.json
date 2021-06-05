@@ -1,12 +1,17 @@
 {
+    "meta": {
+        "theme": "flat"
+    },
     "basics": {
         "name": "Sean Beach",
         "label": "Software Engineer",
-        "summary": "Sean is a software engineer, specializing in Android app development, with a passion for video games and coffee. Sean started his education at Auburn University, where he learned the basics of programming. The following year, he transferred to the University of Memphis to complete his Computer Science degree. After graduation, he moved to Nashville to start his career as an Android developer. Over the years his skills have broadened to include iOS, .NET, and SQL. After moving to Nashville, Sean developed an interest in specialty coffee, and enjoys trying different coffees from around the world. When he gets the time and opportunity, he likes visiting Steadfast, Dose, and Crema. Sean likes to spend his free time watching movies with his wife, playing a variety of games, improving his skills, and reading about the technology industry at large.",
+        "email": "contact@sbeach.dev",
+        "website": "https://sbeach.dev",
+        "summary": "Sean is a software engineer, specializing in Android app development, with a passion for video games and coffee.\nSean started his education at Auburn University, where he learned the basics of programming. The following year, he transferred to the University of Memphis to complete his Computer Science degree. After graduation, he moved to Nashville to start his career as an Android developer. Over the years his skills have broadened to include iOS, .NET, and SQL.\nAfter moving to Nashville, Sean developed an interest in specialty coffee, and enjoys trying different coffees from around the world. When the plague upon humanity recedes, he is looking forward to visiting Steadfast, Dose, and Crema again.\nSean likes to spend his free time playing video games, building decks and playing Magic: The Gathering, improving his skills, and reading about the technology industry at large. His favorite video games are Fire Emblem, Endless Legend, and Factorio.",
         "profiles": [
             {
                 "network": "GitHub",
-                "url": "https://github.com/sean0728"
+                "url": "https://github.com/sbeach"
             },
             {
                 "network": "StackOverflow",
@@ -20,10 +25,18 @@
     },
     "work": [
         {
+            "company": "TEKsystems",
+            "position": "Software Developer",
+            "website": "https://www.teksystems.com/en/about-teksystems",
+            "startDate": "2021-04-12",
+            "summary": "Android Software Developer Contractor for Hilton Resorts."
+        },
+        {
             "company": "Onlife Health",
-            "position": "Developer II",
+            "position": "Developer III",
             "website": "https://www.onlifehealth.com/",
             "startDate": "2017-04-24",
+            "endDate": "2021-04-02",
             "summary": "Lead mobile developer. Continued native Android tenure while branching into native iOS with Swift, .NET APIs, and SQL Server. Technical lead of white label effort to offer more branding options for clients, while simultaneously providing a streamlined experience for end users. The project expanded a single app immediately to four, with the capability to quickly scale up further through use of automated tools."
         },
         {
@@ -40,7 +53,7 @@
             "website": "metova.com/about-us/",
             "startDate": "2015-08-07",
             "endDate": "2016-12-15",
-            "summary": "Worked as part of distributed teams and to develop amazing software that delights customers. Primary focus on Android development, with minor experience in iOS. Short tenure on Angular project, using Cordova and the Ionic framework to develop apps for both Android and iOS from one code base."
+            "summary": "Worked as part of distributed teams to develop amazing software that delights customers. Primary focus on Android development, with minor experience in iOS. Short tenure on Angular project, using Cordova and the Ionic framework to develop apps for both Android and iOS from one code base."
         },
         {
             "company": "LifeWay Christian Resources",
