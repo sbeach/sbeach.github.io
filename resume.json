@@ -25,14 +25,14 @@
     },
     "work": [
         {
-            "company": "TEKsystems",
+            "name": "TEKsystems",
             "position": "Software Developer",
             "website": "https://www.teksystems.com/en/about-teksystems",
             "startDate": "2021-04-12",
             "summary": "Android Software Developer Contractor for Hilton Resorts."
         },
         {
-            "company": "Onlife Health",
+            "name": "Onlife Health",
             "position": "Developer III",
             "website": "https://www.onlifehealth.com/",
             "startDate": "2017-04-24",
@@ -40,7 +40,7 @@
             "summary": "Lead mobile developer. Continued native Android tenure while branching into native iOS with Swift, .NET APIs, and SQL Server. Technical lead of white label effort to offer more branding options for clients, while simultaneously providing a streamlined experience for end users. The project expanded a single app immediately to four, with the capability to quickly scale up further through use of automated tools."
         },
         {
-            "company": "TEKsystems",
+            "name": "TEKsystems",
             "position": "Developer II",
             "website": "https://www.teksystems.com/en/about-teksystems",
             "startDate": "2016-12-19",
@@ -48,7 +48,7 @@
             "summary": "Contract-to-hire position with Onlife Health"
         },
         {
-            "company": "Metova, Inc.",
+            "name": "Metova, Inc.",
             "position": "Developer",
             "website": "metova.com/about-us/",
             "startDate": "2015-08-07",
@@ -56,7 +56,7 @@
             "summary": "Worked as part of distributed teams to develop amazing software that delights customers. Primary focus on Android development, with minor experience in iOS. Short tenure on Angular project, using Cordova and the Ionic framework to develop apps for both Android and iOS from one code base."
         },
         {
-            "company": "LifeWay Christian Resources",
+            "name": "LifeWay Christian Resources",
             "position": "Software Engineer",
             "website": "http://www.lifeway.com/Article/About-Us",
             "startDate": "2014-02-04",
@@ -64,7 +64,7 @@
             "summary": "Developed and maintained an Android application platform for reading and annotating ePub content. ePubs are streamed over the internet via an internal API, or downloaded and parsed locally. All content is encrypted at time of download, and decrypted on the fly as the user reads, including HTML5 video content. The platform also included a verbose library screen for all of the user's owned content, and an in-app store where they can purchase more. This project, via Gradle flavors and flexible coding, became the basis for 5 published applications on the Google Play store, the most prominent being WORDsearch Bible (https://play.google.com/store/apps/details?id=com.lifeway.wordsearchreader) with over 20,000 unique users and over 30,000 total installations."
         },
         {
-            "company": "University of Memphis",
+            "name": "University of Memphis",
             "position": "Undergraduate Researcher",
             "website": "http://www.memphis.edu/cs/",
             "startDate": "2013-04-01",
