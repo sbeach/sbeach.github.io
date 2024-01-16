@@ -1,13 +1,10 @@
 {
-    "meta": {
-        "theme": "flat"
-    },
     "basics": {
         "name": "Sean Beach",
         "label": "Software Engineer",
         "email": "contact@sbeach.dev",
         "website": "https://sbeach.dev",
-        "summary": "Sean is a software engineer, specializing in Android app development, with a passion for video games and coffee.\nSean started his education at Auburn University, where he learned the basics of programming. The following year, he transferred to the University of Memphis to complete his Computer Science degree. After graduation, he moved to Nashville to start his career as an Android developer. Over the years his skills have broadened to include iOS, .NET, and SQL.\nAfter moving to Nashville, Sean developed an interest in specialty coffee, and enjoys trying different coffees from around the world. When the plague upon humanity recedes, he is looking forward to visiting Steadfast, Dose, and Crema again.\nSean likes to spend his free time playing video games, building decks and playing Magic: The Gathering, improving his skills, and reading about the technology industry at large. His favorite video games are Fire Emblem, Endless Legend, and Factorio.",
+        "summary": "Software engineer specializing in Android app development, with passion for coffee, smoky liquors, and games of all kinds.",
         "profiles": [
             {
                 "network": "GitHub",
@@ -25,11 +22,19 @@
     },
     "work": [
         {
+            "name": "Hilton",
+            "position": "Senior Lead Software Engineer",
+            "website": "https://www.hilton.com/",
+            "startDate": "2022-04-04",
+            "summary": "Software Engineering Lead on the dev team that maintains and enhances the Hilton Honors app for Android, available on Google Play. Working remotely on a distributed team across North America. Primary responsibilities include project lead of a new process within Hilton engineering that focuses on bottom-up development patterns and collaborative efforts, allowing minimal lead time between inception and deployment. The key of this ideology is a library of UI/UX components written in Jetpack Compose that is used as the design source of truth for all user flows."
+        },
+        {
             "name": "TEKsystems",
-            "position": "Software Developer",
+            "position": "Lead Software Engineer",
             "website": "https://www.teksystems.com/en/about-teksystems",
             "startDate": "2021-04-12",
-            "summary": "Android Software Developer Contractor for Hilton Resorts."
+            "endDate": "2022-04-01",
+            "summary": "Software Engineer Contractor for Hilton."
         },
         {
             "name": "Onlife Health",
@@ -53,23 +58,21 @@
             "website": "metova.com/about-us/",
             "startDate": "2015-08-07",
             "endDate": "2016-12-15",
-            "summary": "Worked as part of distributed teams to develop amazing software that delights customers. Primary focus on Android development, with minor experience in iOS. Short tenure on Angular project, using Cordova and the Ionic framework to develop apps for both Android and iOS from one code base."
+            "summary": "Worked as part of a distributed team to develop amazing software that delights customers. Primary focus on Android development, with minor experience in iOS and Angular projects."
         },
         {
             "name": "LifeWay Christian Resources",
             "position": "Software Engineer",
             "website": "http://www.lifeway.com/Article/About-Us",
             "startDate": "2014-02-04",
-            "endDate": "2015-07-24",
-            "summary": "Developed and maintained an Android application platform for reading and annotating ePub content. ePubs are streamed over the internet via an internal API, or downloaded and parsed locally. All content is encrypted at time of download, and decrypted on the fly as the user reads, including HTML5 video content. The platform also included a verbose library screen for all of the user's owned content, and an in-app store where they can purchase more. This project, via Gradle flavors and flexible coding, became the basis for 5 published applications on the Google Play store, the most prominent being WORDsearch Bible (https://play.google.com/store/apps/details?id=com.lifeway.wordsearchreader) with over 20,000 unique users and over 30,000 total installations."
+            "endDate": "2015-07-24"
         },
         {
             "name": "University of Memphis",
             "position": "Undergraduate Researcher",
             "website": "http://www.memphis.edu/cs/",
             "startDate": "2013-04-01",
-            "endDate": "2013-12-01",
-            "summary": "Android development as part of a faculty research project with Dr. Timothy Hnat. Attempted to modify the Android Open Source Project to include a new OS-level security protocol. The goal was to implement behavior learning of user action. Based upon past usage, the protocol would be able to recognize the device owner based upon hardware sensor readings, and determine if the current user is the owner. If the protocol detected otherwise, other security mechanisms would take effect, such as confirmation of device password, or answering a security question."
+            "endDate": "2013-12-01"
         }
     ],
     "volunteer": [
@@ -77,41 +80,18 @@
             "organization": "Nashville Mobile Development User Group",
             "position": "Organizer",
             "website": "https://www.meetup.com/NashvilleMDUG/",
-            "startDate": "2016-04-01",
-            "endDate": "2020-01-01",
-            "summary": "Helping organize monthly meetings for mobile technology professionals to network and increase their technical proficiencies. Past content has included Android study groups, iOS and Swift tutorials, and getting started with Unity. The group is a Google Development Group, and hosts an official Google I/O Extended event. Learn more about this group at Meetup.com. https://www.meetup.com/NashvilleMDUG/"
+            "startDate": "2016-04",
+            "endDate": "2020",
+            "summary": "Helped organize monthly meetings for mobile technology professionals to network and increase their technical proficiencies. Content included Android study groups, iOS and Swift tutorials, getting started with Unity, among others."
         }
     ],
     "education": [
         {
             "institution": "University of Memphis",
             "area": "Computer Science",
-            "studyType": "Bachelor of Science (BS)",
-            "startDate": "2011-08-01",
-            "endDate": "2013-12-01",
-            "gpa": "3.2",
-            "courses": [
-                "Computer organization and Architecture",
-                "Networking and Information Assurance",
-                "Programming Languages",
-                "Operating Systems",
-                "Capstone Software Project",
-                "For the full list, visit http://www.memphis.edu/cs/courses/index.php"
-            ]
-        },
-        {
-            "institution": "Auburn University",
-            "area": "Software Engineering",
-            "startDate": "2010-08-01",
-            "endDate": "2011-05-01"
-        }
-    ],
-    "awards": [
-        {
-            "title": "Developing Android Apps",
-            "date": "2015-06-30",
-            "awarder": "Udacity",
-            "summary": "Certification of completion for online course. https://www.udacity.com/course/ud853"
+            "studyType": "Bachelor of Science",
+            "startDate": "2011-08",
+            "endDate": "2013-12"
         }
     ],
     "languages": [
@@ -145,16 +125,8 @@
             "name": "Magic: The Gathering",
             "keywords": [
                 "Commander",
-                "Booster Draft",
-                "Legacy"
-            ]
-        },
-        {
-            "name": "Video Games",
-            "keywords": [
-                "Fire Emblem",
-                "Endless Legend",
-                "Factorio"
+                "Draft / Cube",
+                "deckbuilding"
             ]
         },
         {
@@ -162,15 +134,24 @@
             "keywords": [
                 "Steadfast",
                 "Dose",
-                "Crema"
+                "espresso"
+            ]
+        },
+        {
+            "name": "Video Games",
+            "keywords": [
+                "Fire Emblem",
+                "Endless Legend",
+                "Factorio",
+                "Pokemon"
             ]
         },
         {
             "name": "Tabletop Games",
             "keywords": [
-                "Dungeons & Dragons",
-                "Gizmos",
-                "Stars Without Number"
+                "Pathfinder 2e",
+                "Terraforming Mars",
+                "Dominion"
             ]
         }
     ]

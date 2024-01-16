@@ -1,576 +1,363 @@
-<!doctype html>
-<html>
-	<head>
-
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-
-	<title>Sean Beach</title>
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-
-	<style type="text/css">
-	@import url(
-	https://fonts.googleapis.com/css?family=Lato:400,700
-);
-body {
-	background: #fff;
-	font-family: Lato, sans-serif;
-	margin: 0 0 80px;
-}
-a {
-	color: #2ecc71;
-}
-a:focus,
-a:hover {
-	color: #f1c40f;
-	text-decoration: none;
-}
-p {
-	line-height: 1.5;
-	margin: 0;
-}
-p + p {
-	margin-top: 10px;
-}
-h1,
-h2,
-h3,
-h4 {
-	margin-top: 0
-}
-section {
-	margin-top: 30px;
-}
-li {
-	line-height: 1.8;
-	list-style: none;
-}
-li:before {
-	content: "\f052";
-	float: left;
-	font: 13px Octicons;
-	margin-top: 6px;
-	margin-left: -20px;
-	opacity: .1;
-	position: absolute;
-}
-blockquote {
-	border-left: 5px solid #e7e9ec;
-	font-size: 14px;
-}
-em {
-	color: #95a5a6;
-	font-weight: normal;
-	font-style: normal;
-}
-h4 span:first-child {
-	color: #000;
-	font-weight: bold;
-}
-.container {
-	max-width: 750px;
-	padding: 0 30px;
-}
-.col-sm-6 {
-	margin-bottom: 10px;
-}
-.col-sm-12 h4 {
-	margin-top: 12px;
-}
-.col-sm-12 + .col-sm-12 {
-	margin-top: 30px;
-}
-#header {
-	background: #f4f6f6;
-	padding: 50px 0;
-	margin-bottom: 30px;
-}
-#header h2 {
-	color: #95a5a6;
-	font-size: 24px;
-}
-#content h3 {
-	color: #f1c40f;
-	font-size: 26px;
-	margin-top: -4px;
-}
-#content aside {
-	text-align: right;
-	padding-right: 30px;
-}
-#profiles .network {
-	text-transform: capitalize;
-}
-#work .position,
-#volunteer .position {
-	font-weight: bold;
-	margin-bottom: 8px;
-}
-#education .area {
-	font-weight: bold;
-}
-#education .area:before {
-	content: "\f0d7";
-	font: 16px Octicons;
-	margin-right: 6px;
-}
-#education .studyType {
-	margin-left: 25px;
-}
-#awards .summary,
-#publications .summary {
-	margin-top: 8px;
-}
-#publications .website a:before {
-	content: attr(href);
-}
-
-@media (min-width: 480px) {
-	.strike-through {
-		border-top: 1px solid #f4f6f6;
-		height: 20px;
-		margin-top: 12px;
-		margin-bottom: -2px;
-		position: relative;
-	}
-	.strike-through span,
-	.strike-through a {
-		background: #fff;
-		position: absolute;
-	}
-	.strike-through span:first-child {
-		padding-right: 20px;
-		margin-top: -12px;
-	}
-	.strike-through span + span {
-		font-size: 14px;
-		margin-top: -10px;
-		padding-left: 20px;
-		right: 0;
-	}
-}
-@media (max-width: 768px) {
-	.col-sm-6:last-child {
-		margin-bottom: 0px;
-	}
-	#content aside {
-		margin-bottom: 20px;
-		padding-right: 0;
-		text-align: left;
-	}
-	#publications .website a:before {
-		content: "View publication";
-	}
-}
-@media (max-width: 480px) {
-	h1 {
-		font-size: 26px;
-	}
-	.date {
-		font-size: 14px;
-		margin-bottom: 5px;
-	}
-	.strike-through span:first-child {
-		margin-bottom: 7px;
-	}
-	.strike-through span {
-		display: block;
-	}
-	#header {
-		margin-bottom: 10px;
-		padding: 40px 0;
-	}
-	#actions {
-		display: none;
-	}
-}
-
-	</style>
-
-	</head>
-	<body>
-
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-9 col-sm-push-3">
-					<h1>
-						Sean Beach
-					</h1>
-					<h2>
-						Software Engineer
-					</h2>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div id="content" class="container">
-
-	<section id="contact" class="row">
-		<aside class="col-sm-3">
-			<h3>Contact</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<strong>Email</strong>
-				<div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="abc8c4c5dfcac8dfebd8c9cecac8c385cfcedd">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">
-				  /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */
-				</script></div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Phone</strong>
-				<div class="phone">901-896-5897</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	<section id="about" class="row">
-		<aside class="col-sm-3">
-			<h3>About</h3>
-		</aside>
-		<div class="col-sm-9">
-			<p>Sean is a software engineer, specializing in Android app development, with a passion for video games and coffee.</p>
-			<p>Sean started his education at Auburn University, where he learned the basics of programming. The following year, he transferred to the University of Memphis to complete his Computer Science degree. After graduation, he moved to Nashville to start his career as an Android developer. Over the years his skills have broadened to include iOS, .NET, and SQL.</p>
-			<p>After moving to Nashville, Sean developed an interest in specialty coffee, and enjoys trying different coffees from around the world. When the plague upon humanity recedes, he is looking forward to visiting Steadfast, Dose, and Crema again.</p>
-			<p>Sean likes to spend his free time playing video games, building decks and playing Magic: The Gathering, improving his skills, and reading about the technology industry at large. His favorite video games are Fire Emblem, Endless Legend, and Factorio.</p>
-		</div>
-	</section>
-	<section id="profiles" class="row">
-		<aside class="col-sm-3">
-			<h3>Profiles</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-				<div class="col-sm-6">
-					<strong class="network">
-						<a href="https://github.com/sbeach">GitHub</a>
-					</strong>
-				</div>
-				<div class="col-sm-6">
-					<strong class="network">
-						<a href="http://stackoverflow.com/users/2608235">StackOverflow</a>
-					</strong>
-				</div>
-				<div class="col-sm-6">
-					<strong class="network">
-						<a href="https://www.linkedin.com/in/sbeachdev">LinkedIn</a>
-					</strong>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="work" class="row">
-		<aside class="col-sm-3">
-			<h3>Work</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>TEKsystems</span>
-					<span class="date">
-						April 2021 — Present
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://www.teksystems.com/en/about-teksystems">teksystems.com</a>
-				</div>
-				<div class="position">
-					Software Developer
-				</div>
-				<div class="summary">
-					<p>Android Software Developer Contractor for Hilton Resorts.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Onlife Health</span>
-					<span class="date">
-						April 2017 — April 2021
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://www.onlifehealth.com">onlifehealth.com</a>
-				</div>
-				<div class="position">
-					Developer III
-				</div>
-				<div class="summary">
-					<p>Lead mobile developer. Continued native Android tenure while branching into native iOS with Swift, .NET APIs, and SQL Server. Technical lead of white label effort to offer more branding options for clients, while simultaneously providing a streamlined experience for end users. The project expanded a single app immediately to four, with the capability to quickly scale up further through use of automated tools.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>TEKsystems</span>
-					<span class="date">
-						December 2016 — April 2017
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://www.teksystems.com/en/about-teksystems">teksystems.com</a>
-				</div>
-				<div class="position">
-					Developer II
-				</div>
-				<div class="summary">
-					<p>Contract-to-hire position with Onlife Health</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Metova, Inc.</span>
-					<span class="date">
-						August 2015 — December 2016
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://metova.com/">metova.com</a>
-				</div>
-				<div class="position">
-					Developer
-				</div>
-				<div class="summary">
-					<p>Worked as part of distributed teams and to develop amazing software that delights customers. Primary focus on Android development, with minor experience in iOS. Short tenure on Angular project, using Cordova and the Ionic framework to develop apps for both Android and iOS from one code base.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>LifeWay Christian Resources</span>
-					<span class="date">
-						February 2014 — July 2015
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://www.lifeway.com/en/about">lifeway.com</a>
-				</div>
-				<div class="position">
-					Software Engineer
-				</div>
-				<div class="summary">
-					<p>Developed and maintained an Android application platform for reading and annotating ePub content. ePubs are streamed over the internet via an internal API, or downloaded and parsed locally. All content is encrypted at time of download, and decrypted on the fly as the user reads, including HTML5 video content. The platform also included a verbose library screen for all of the user&#x27;s owned content, and an in-app store where they can purchase more content. This project, via Gradle flavors and flexible coding, became the basis for 5 published applications on the Google Play store, the most prominent being <a href="https://play.google.com/store/apps/details?id=com.lifeway.wordsearchreader">WORDsearch Bible</a> with over 20,000 unique users and over 30,000 total installations.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>University of Memphis</span>
-					<span class="date">
-						April 2013 — December 2013
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://www.memphis.edu/cs/">memphis.edu</a>
-				</div>
-				<div class="position">
-					Undergraduate Researcher
-				</div>
-				<div class="summary">
-					<p>Android development as part of a faculty research project with Dr. Timothy Hnat. Attempted to modify the Android Open Source Project to include a new OS-level security protocol. The goal was to implement behavior learning of user action. Based upon past usage, the protocol would be able to recognize the device owner based upon hardware sensor readings, and determine if the current user is the owner. If the protocol detected otherwise, other security mechanisms would take effect, such as confirmation of device password, or answering a security question.</p>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="volunteer" class="row">
-		<aside class="col-sm-3">
-			<h3>Volunteer</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Nashville Mobile Development User Group</span>
-					<span class="date">
-						April 2016 — Present
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://www.meetup.com/NashvilleMDUG/">meetup.com</a>
-				</div>
-				<div class="position">
-					Organizer
-				</div>
-				<div class="summary">
-					<p>Helping organize monthly meetings for those interested in mobile technology to network and increase their techincal proficiencies. Past content has included Android study groups, iOS and Swift tutorials, and getting started with Unity. The group is a Google Development Group, and hosts an official Google I/O Extended event. Learn more about this group at <a href="https://www.meetup.com/NashvilleMDUG/">Meetup.com.</a></p>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="education" class="row">
-		<aside class="col-sm-3">
-			<h3>Education</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>University of Memphis</span>
-					<span class="date">
-						August 2011 — December 2013
-					</span>
-				</h4>
-				<div class="area">
-					Computer Science
-				</div>
-				<div class="studyType">
-					Bachelor of Science (BS)
-				</div>
-				<h4>Courses</h4>
-				<ul class="courses">
-                    <li>Computer Organization and Architecture</li>
-                    <li>Networking and Information Assurance</li>
-                    <li>Programming Languages</li>
-                    <li>Operating Systems</li>
-                    <li>Capstone Software Project</li>
-					<li>For the full list, visit <a href="http://www.memphis.edu/cs/courses/index.php">memphis.edu</a></li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Auburn University</span>
-					<span class="date">
-						August 2010 — May 2011
-					</span>
-				</h4>
-				<div class="area">
-					Software Engineering
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="awards" class="row">
-		<aside class="col-sm-3">
-			<h3>Certifications</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Developing Android Apps</span>
-				</h4>
-				<div class="date pull-right">
-					<em>Awarded</em>
-					June 30, 2015
-				</div>
-				<div class="awarder">
-					<em>by</em>
-					<strong>Udacity</strong>
-				</div>
-				<div class="summary">
-					Certification of completion for <a href="https://www.udacity.com/course/ud853">online course.</a>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="languages" class="row">
-		<aside class="col-sm-3">
-			<h3>Languages</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>English</strong>
-				</div>
-				<div class="fluency">
-					Native speaker
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>Java</strong>
-				</div>
-				<div class="fluency">
-					Advanced
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>Kotlin</strong>
-				</div>
-				<div class="fluency">
-					Intermediate
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>Swift</strong>
-				</div>
-				<div class="fluency">
-					Beginner
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>.NET</strong>
-				</div>
-				<div class="fluency">
-					Beginner
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="interests" class="row">
-		<aside class="col-sm-3">
-			<h3>Interests</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Magic: The Gathering</h4>
-				</div>
-				<ul class="keywords">
-					<li>Commander</li>
-					<li>Booster Draft</li>
-					<li>Legacy</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Video Games</h4>
-				</div>
-				<ul class="keywords">
-					<li>Fire Emblem</li>
-					<li>Endless Legend</li>
-					<li>Factorio</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Coffee</h4>
-				</div>
-				<ul class="keywords">
-					<li>Steadfast</li>
-					<li>Dose</li>
-					<li>Crema</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Tabletop Games</h4>
-				</div>
-				<ul class="keywords">
-					<li>Dungeons & Dragons</li>
-					<li>Gizmos</li>
-					<li>Stars Without Number</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-	</div>
-	</body>
-</html>
+<!DOCTYPE html>
+    <html lang="en" style="">
+      <head>
+        <meta charset="utf-8">
+        
+    <title>Sean Beach</title>
+    <meta name="description" content="Software engineer specializing in Android app development, with passion for coffee, smoky liquors, and games of all kinds.">
+  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
+        <style>:root{color-scheme:light dark;--color-background-light: #ffffff;--color-dimmed-light: #f3f4f5;--color-primary-light: #191e23;--color-secondary-light: #6c7781;--color-accent-light: #0073aa;--color-background-dark: #191e23;--color-dimmed-dark: #23282d;--color-primary-dark: #fbfbfc;--color-secondary-dark: #ccd0d4;--color-accent-dark: #00a0d2;--color-background: var(--color-background-light);--color-dimmed: var(--color-dimmed-light);--color-primary: var(--color-primary-light);--color-secondary: var(--color-secondary-light);--color-accent: var(--color-accent-light);--scale-ratio: 1.25;--scale0: 1rem;--scale1: calc(var(--scale0) * var(--scale-ratio));--scale2: calc(var(--scale1) * var(--scale-ratio));--scale3: calc(var(--scale2) * var(--scale-ratio));--scale4: calc(var(--scale3) * var(--scale-ratio));--scale5: calc(var(--scale4) * var(--scale-ratio))}@media (prefers-color-scheme: dark){:root{--color-background: var(--color-background-dark);--color-dimmed: var(--color-dimmed-dark);--color-primary: var(--color-primary-dark);--color-secondary: var(--color-secondary-dark);--color-accent: var(--color-accent-dark)}}*{box-sizing:border-box;margin:0;padding:0}html{font-size:14px}body{background:var(--color-background);color:var(--color-primary);display:grid;font:1em/1.5 Lato,sans-serif;gap:2em;grid-template-columns:[full-start] 1fr [main-start side-start] minmax(min-content,12em) [side-end content-start] minmax(min-content,36em) [main-end content-end] 1fr [full-end];grid-template-rows:auto [content] 0;margin-bottom:4em}body:before{content:"";grid-column:full;grid-row:content}ol,ul{padding-left:1em}:not(.icon-list,.tag-list)>li+li{margin-top:.4em}li::marker,.network{color:var(--color-secondary)}a{color:var(--color-accent);text-decoration:none}a:focus,a:hover{text-decoration:underline}h1,h2,h3,h5{font-weight:400}h1,h2,h3{line-height:1.2}h1{font-size:var(--scale5)}h2{color:var(--color-secondary);font-size:var(--scale4)}h3{color:var(--color-secondary);font-size:var(--scale3);grid-column:side;margin-bottom:1rem}h4{font-size:var(--scale2)}h5{font-size:var(--scale1)}h6{font-size:var(--scale0)}blockquote{border-left:.2em solid var(--color-dimmed);padding-left:1em}cite{color:var(--color-secondary);font-style:inherit}cite:before{content:"— "}svg{margin-right:.2em;vertical-align:text-bottom}.masthead{background:var(--color-dimmed);display:inherit;gap:inherit;grid-column:full;grid-template-columns:inherit;padding:4em 0;text-align:center}.masthead>*,section{grid-column:main}.masthead>img{border:4px solid;border-radius:50%;margin:0 auto;max-width:12em}article>*+*,blockquote>*+*,.timeline>div>*+*{margin-top:.6em}.meta{color:var(--color-secondary)}.stack{display:grid;gap:1.5em}.icon-list{display:flex;flex-wrap:wrap;gap:.4em 1em;justify-content:center;list-style:none;padding:0}.grid-list{display:grid;gap:1em}.tag-list{display:flex;flex-wrap:wrap;gap:.4em;list-style:none;padding:0}.tag-list>li{background:var(--color-dimmed);border-radius:.2em;padding:.2em .6em}.timeline>div{position:relative}.timeline>div:not(:last-child){padding-bottom:1rem}.timeline>div:not(:last-child):before{content:"";position:absolute;top:1rem;left:-15px;width:2px;height:100%;background:var(--color-secondary)}.timeline>div:not(:only-child):after{content:"";position:absolute;top:.6rem;left:-20px;width:8px;height:8px;background:var(--color-secondary);border:2px solid var(--color-background);border-radius:50%}@media print,(min-width: 48em){h3{text-align:right;margin-bottom:inherit}.masthead{text-align:inherit}.masthead>*,section{grid-column:content}.masthead img{grid-column:side;grid-row:span 2;max-width:100%}section{display:contents}.icon-list{flex-direction:column}.grid-list{grid-template-columns:repeat(auto-fit,minmax(calc((100% - 1em)/2),1fr))}}
+</style>
+      </head>
+      <body>
+        
+    <header class="masthead">
+      
+      <div>
+        <h1>Sean Beach</h1>
+        <h2>Software Engineer</h2>
+      </div>
+      <article><p>Software engineer specializing in Android app development, with passion for coffee, smoky liquors, and games of all kinds.</p></article>
+      <ul class="icon-list">
+        
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="abc8c4c5dfcac8dfebd8c9cecac8c385cfcedd">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">
+              /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */
+            </script>
+          </li>
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            <a href="https://github.com/sbeach">GitHub</a>
+          </li>
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            <a href="http://stackoverflow.com/users/2608235">StackOverflow</a>
+          </li>
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            <a href="https://www.linkedin.com/in/sbeachdev">LinkedIn</a>
+          </li>
+        
+      </ul>
+    </header>
+  
+        
+    <section id="work">
+      <h3>Work</h3>
+      <div class="stack">
+        
+          <article>
+            <header>
+              <h4>Hilton</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Senior Lead Software Engineer</h5>
+                    <div class="meta">
+                      <div><time datetime="2023-03-01">Mar 2023</time> – Present</div>
+                      
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Lead Software Engineer</h5>
+                    <div class="meta">
+                      <div><time datetime="2022-04-04">Apr 2022</time> – <time datetime="2023-03-01">Mar 2023</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Software Engineering Lead on the dev team that maintains and enhances the Hilton Honors app for Android, available on Google Play. Working remotely on a distributed team across North America. Primary responsibilities include project lead of a new process within Hilton engineering that focuses on bottom-up development patterns and collaborative efforts, allowing minimal lead time between inception and deployment. The key of this ideology is a library of UI/UX components written in Jetpack Compose that is used as the design source of truth for all user flows.</p>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>TEKsystems</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Lead Software Engineer</h5>
+                    <div class="meta">
+                      <div><time datetime="2021-04-12">Apr 2021</time> – <time datetime="2022-04-01">Apr 2022</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Software Engineer Contractor for Hilton.</p>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Onlife Health</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Developer III</h5>
+                    <div class="meta">
+                      <div><time datetime="2017-04-24">Apr 2017</time> – <time datetime="2021-04-02">Apr 2021</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Lead mobile developer. Continued native Android tenure while branching into native iOS with Swift, .NET APIs, and SQL Server. Technical lead of white label effort to offer more branding options for clients, while simultaneously providing a streamlined experience for end users. The project expanded a single app immediately to four, with the capability to quickly scale up further through use of automated tools.</p>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>TEKsystems</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Developer II</h5>
+                    <div class="meta">
+                      <div><time datetime="2016-12-19">Dec 2016</time> – <time datetime="2017-04-24">Apr 2017</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Contract-to-hire position with Onlife Health</p>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Metova, Inc.</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Developer</h5>
+                    <div class="meta">
+                      <div><time datetime="2015-08-07">Aug 2015</time> – <time datetime="2016-12-15">Dec 2016</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Worked as part of a distributed team to develop amazing software that delights customers. Primary focus on Android development, with minor experience in iOS and Angular projects.</p>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>LifeWay Christian Resources</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Software Engineer</h5>
+                    <div class="meta">
+                      <div><time datetime="2014-02-04">Feb 2014</time> – <time datetime="2015-07-24">Jul 2015</time></div>
+                      
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>University of Memphis</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Undergraduate Researcher</h5>
+                    <div class="meta">
+                      <div><time datetime="2013-04-01">Apr 2013</time> – <time datetime="2013-12-01">Dec 2013</time></div>
+                      
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+      </div>
+    </section>
+  
+        
+    <section id="volunteer">
+      <h3>Volunteer</h3>
+      <div class="stack">
+        
+          <article>
+            <header>
+              <h4>Nashville Mobile Development User Group</h4>
+              <div class="meta">
+                <strong>Organizer</strong>
+                <div><time datetime="2016-04">Apr 2016</time> – <time datetime="2020">Jan 2020</time></div>
+              </div>
+            </header>
+            <p>Helped organize monthly meetings for mobile technology professionals to network and increase their technical proficiencies. Content included Android study groups, iOS and Swift tutorials, getting started with Unity, among others.</p>
+            
+          </article>
+        
+      </div>
+    </section>
+  
+        
+    <section id="education">
+      <h3>Education</h3>
+      <div class="stack">
+        
+          <article>
+            <header>
+              <h4>University of Memphis</h4>
+              <div class="meta">
+                <strong>Computer Science</strong>
+                <div><time datetime="2013-12">Dec 2013</time></div>
+              </div>
+            </header>
+            <p>Bachelor of Science</p>
+            
+          </article>
+        
+      </div>
+    </section>
+  
+        
+        
+        
+        
+        
+        
+    <section id="languages">
+      <h3>Languages</h3>
+      <div class="grid-list">
+        
+          <div>
+            <h4>English</h4>
+            Native speaker
+          </div>
+        
+          <div>
+            <h4>Java</h4>
+            Advanced
+          </div>
+        
+          <div>
+            <h4>Kotlin</h4>
+            Advanced
+          </div>
+        
+          <div>
+            <h4>Javascript</h4>
+            Intermediate
+          </div>
+        
+          <div>
+            <h4>Swift</h4>
+            Beginner
+          </div>
+        
+          <div>
+            <h4>.NET</h4>
+            Beginner
+          </div>
+        
+      </div>
+    </section>
+  
+        
+    <section id="interests">
+      <h3>Interests</h3>
+      <div class="grid-list">
+        
+          <div>
+            <h4>Magic: The Gathering</h4>
+            
+              <ul class="tag-list">
+                <li>Commander</li><li>Draft / Cube</li><li>deckbuilding</li>
+              </ul>
+            
+          </div>
+        
+          <div>
+            <h4>Coffee</h4>
+            
+              <ul class="tag-list">
+                <li>Steadfast</li><li>Dose</li><li>espresso</li>
+              </ul>
+            
+          </div>
+        
+          <div>
+            <h4>Video Games</h4>
+            
+              <ul class="tag-list">
+                <li>Fire Emblem</li><li>Endless Legend</li><li>Factorio</li><li>Pokemon</li>
+              </ul>
+            
+          </div>
+        
+          <div>
+            <h4>Tabletop Games</h4>
+            
+              <ul class="tag-list">
+                <li>Pathfinder 2e</li><li>Terraforming Mars</li><li>Dominion</li>
+              </ul>
+            
+          </div>
+        
+      </div>
+    </section>
+  
+        
+      </body>
+    </html>
